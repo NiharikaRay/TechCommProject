@@ -1,4 +1,4 @@
 TechCommProject
 ===============
 
-TechCommProject for Nikki,Sanaa,Sandy,Akshya
+TechCommProject for Nikki,Sanaa,Sandy,Akshay

@@ -1,0 +1,36 @@
+document.write("<table bgcolor='#CCFFFF' align='center' border='0' width='1000' cellspacing='20'>");
+document.write("<tr>");
+document.write("<td align='center'>");
+document.write("<font face='verdana, arial, helvetica, sans-serif' size='2'>");
+document.write("<b>STOPWATCH</b></font>");
+
+document.write("</td>");
+document.write("</tr>");
+document.write("<tr>");
+document.write("<td align='center'>");
+document.write("<form name='clock'>");
+document.write("<input type='text' size='12' name='stwa' value='00 : 00 : 00' style='text-align:center' /><br />");
+document.write("<input type='button' name='theButton' onClick='stopwatch(this.value);' value='Start' />");
+document.write("<input type='button' value='Reset' onClick='resetIt();reset();' /><br />");
+document.write("<input type='button' name='saver' value='Save Comment 1' onClick='saveIt();' />");
+document.write("<input type= 'text'  name= 'comment' />");
+document.write("</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td align='center'>");
+document.write("<span id='comment01' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment02' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment03' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment04' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment05' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment06' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment07' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment08' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment09' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment10' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("<span id='comment11' style='text-align:center; font-family:arial; font-size:10pt'></span>");
+document.write("</form>");
+document.write("</td>");
+document.write("</tr>");
+document.write("</table>");

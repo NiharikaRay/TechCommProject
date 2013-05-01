@@ -1,4 +1,4 @@
-document.write("<table bgcolor='#CCFFFF' align='center' border='0' width='1000' cellspacing='20'>");
+document.write("<table bgcolor='#CCFFFF' align='center' border='0' width='600' cellspacing='20'>");
 document.write("<tr>");
 document.write("<td align='center'>");
 document.write("<font face='verdana, arial, helvetica, sans-serif' size='2'>");

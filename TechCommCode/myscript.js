@@ -18,7 +18,7 @@
    			document.clock.stwa.value = ((hour<=9) ? "0"+hour : hour) + " : " + ((min<=9) ? "0" + min : min) + " : " + sec;
 
   		if (text == "Start") { document.clock.theButton.value = "Stop "; }
-  		if (text == "Stop ") { document.clock.theButton.value = "Start"; sec = sec-1; sec--; }
+  		if (text == "Stop ") { document.clock.theButton.value = "Start"; sec = sec-1;}
 
  		if (document.clock.theButton.value == "Start") {
    			return true; }

@@ -3,11 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Login Form</title>
-<link href="loginmodule.css" rel="stylesheet" type="text/css" />
+<link href="PHP-Login/loginmodule.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <p>&nbsp;</p>
-<form id="loginForm" name="loginForm" method="post" action="login-exec.php">
+<form id="loginForm" name="loginForm" method="post" action="PHP-Login/login-exec.php">
   <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
     <tr>
       <td width="112"><b>Login</b></td>
